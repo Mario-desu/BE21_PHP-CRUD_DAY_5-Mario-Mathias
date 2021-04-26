@@ -1,7 +1,7 @@
 <?php
 function file_upload($picture) {
    $result = new stdClass();//this object will carry status from file upload
-   $result->fileName = 'product.png';
+   $result->fileName = 'avatar.png';
    $result->error = 1;//it could also be a boolean true/false
    //collect data from object $picture
    $fileName = $picture["name"];

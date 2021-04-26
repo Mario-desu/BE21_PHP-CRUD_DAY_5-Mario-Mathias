@@ -14,13 +14,16 @@
        </style>
    </head>
    <body>
+   <header>
+           <?php require_once "components/navbar.php" ?>
+   </header>
        <fieldset>
            <legend class='h2'>Add Blog Post</legend>
            <form action="actions/a_create.php"  method= "post" enctype= "multipart/form-data">
                <table  class='table'>
                    <tr>
                        <th>Name</th>
-                        <td><input  class ='form-control' type="text"  name="name"  placeholder ="Product Name" /></td>
+                        <td><input  class ='form-control' type="text"  name="name"  placeholder ="Name" /></td>
                    </tr>   
                    <tr>
                        <th>Date</th >
